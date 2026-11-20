@@ -42,7 +42,7 @@
       hint:'Cada conexión tiene un color. Toca primero un puerto de salida y después el puerto del mismo color al otro lado. No importa el orden.',
       photo:'assets/foto-003.jpeg', caption:'RECOVERED IMAGE // 003', theme:'majestic',
       evidenceTitle:'CORRESPONDENCE RESTORED // 003', evidenceCopy:'La transmisión ha sido reconstruida. Una ubicación que alguna vez fue un destino soñado vuelve a aparecer en los registros.',
-      clue:'Antes de las promesas, antes de los planes y antes de que existiera una historia compartida, hubo un primer registro. Una imagen que capturó el instante en que dos personas comenzaron a convertirse en algo más. El último nodo está junto a ese primer testigo.'
+      clue:'El último registro no está encerrado en un marco ni protegido por un sello. Hay algo que se entrega sin palabras, que florece y guarda su belleza por un tiempo. Busca entre sus pétalos: allí descansa la última señal del archivo.'
     },
     '004': {
       title:'FINAL MEMORY', subtitle:'The final record requires an authorization from the original source.', classification:'FINAL AUTHORIZATION',
