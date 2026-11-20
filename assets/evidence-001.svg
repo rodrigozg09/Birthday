@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M 42 0 L 0 0 0 42" fill="none" stroke="#68d991" stroke-opacity=".12" stroke-width="1"/></pattern><radialGradient id="glow"><stop offset="0" stop-color="#68d991" stop-opacity=".18"/><stop offset="1" stop-color="#12261d" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="760" fill="#12261d"/><rect width="1200" height="760" fill="url(#grid)"/><ellipse cx="600" cy="300" rx="600" ry="500" fill="url(#glow)"/>
+<rect x="44" y="44" width="1112" height="672" rx="8" fill="none" stroke="#68d991" stroke-opacity=".35" stroke-width="2"/>
+<path d="M80 130h180M80 130v80M1120 630H940M1120 630v-80" stroke="#68d991" stroke-width="3" stroke-opacity=".7" fill="none"/>
+<text x="600" y="300" text-anchor="middle" font-family="monospace" font-size="32" letter-spacing="9" fill="#68d991" opacity=".8">EVIDENCE 001</text>
+<text x="600" y="382" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="bold" fill="#f0f4f7">PHOTO SLOT</text>
+<text x="600" y="438" text-anchor="middle" font-family="monospace" font-size="22" fill="#b7c7d0">Replace with the medieval festival photo</text>
+<text x="600" y="650" text-anchor="middle" font-family="monospace" font-size="17" letter-spacing="4" fill="#68d991" opacity=".7">CLASSIFIED MEMORY RECOVERY SYSTEM</text>
+</svg>

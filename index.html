@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080d12">
+  <meta name="description" content="ARCHIVE ZERO — classified memory recovery system.">
+  <title>ARCHIVE ZERO // Terminal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="hub-page" data-node="hub">
+  <div class="scanlines" aria-hidden="true"></div>
+  <main class="hub-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html"><span class="brand-mark">AZ</span><span>ARCHIVE ZERO</span></a>
+      <span class="topbar-status"><i class="status-dot"></i> LOCAL TERMINAL</span>
+    </header>
+    <section class="hero-panel">
+      <p class="eyebrow">SPECIAL INVESTIGATION DIVISION · CLASSIFIED</p>
+      <h1>MEMORY<br><span>RECOVERY</span></h1>
+      <p class="lede">Cuatro nodos. Cuatro archivos. Una historia que espera ser reconstruida.</p>
+      <div class="rule"></div>
+      <p class="body-copy">Selecciona un nodo para probar la experiencia. Durante el juego real, cada etiqueta NFC abrirá directamente su propio expediente.</p>
+      <div class="node-grid">
+        <a class="node-card node-green" href="001.html"><span class="node-number">NODE 001</span><strong>INITIAL CONTACT</strong><span class="node-state">CIPHER TEST <b>↗</b></span></a>
+        <a class="node-card node-blue" href="002.html"><span class="node-number">NODE 002</span><strong>LOST COORDINATES</strong><span class="node-state">MOTION TEST <b>↗</b></span></a>
+        <a class="node-card node-amber" href="003.html"><span class="node-number">NODE 003</span><strong>ENCRYPTED CORRESPONDENCE</strong><span class="node-state">CIRCUIT TEST <b>↗</b></span></a>
+        <a class="node-card node-violet" href="004.html"><span class="node-number">NODE 004</span><strong>FINAL MEMORY</strong><span class="node-state">MEMORY TEST <b>↗</b></span></a>
+      </div>
+      <p class="micro-note">DEVELOPMENT BUILD · THE REAL NFC TAGS SHOULD POINT TO THE INDIVIDUAL NODE URLS</p>
+      <button class="text-button reset-button" id="reset-progress" type="button">[ RESET LOCAL TEST PROGRESS ]</button>
+    </section>
+    <footer class="footer-line"><span>AZ // SYSTEM READY</span><span>UNAUTHORIZED ACCESS IS NOT THE POINT.</span></footer>
+  </main>
+  <script src="audio.js"></script>
+  <script>document.getElementById("reset-progress").addEventListener("click", () => { for (const id of ["001","002","003","004"]) localStorage.removeItem(`archive-zero-node-${id}-recovered`); alert("Local test progress cleared."); });</script>
+</body>
+</html>

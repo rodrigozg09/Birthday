@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080d12">
+  <meta name="description" content="ARCHIVE ZERO — restricted memory recovery node 004.">
+  <title>ARCHIVE ZERO // NODE 004</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-node="004">
+  <div class="scanlines" aria-hidden="true"></div>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="ARCHIVE ZERO home"><span class="brand-mark">AZ</span><span>ARCHIVE ZERO</span></a>
+      <div class="topbar-right"><span class="topbar-status"><i class="status-dot"></i> ENCRYPTED SESSION</span><button class="sound-toggle" id="sound-toggle" type="button" aria-label="Activar o silenciar sonido">♫ <span>SONIDO</span></button></div>
+    </header>
+
+    <section class="node-heading">
+      <div><p class="eyebrow">SPECIAL INVESTIGATION DIVISION</p><p class="node-index">NODE 004 <span>//</span> <span id="node-classification">CLASSIFIED</span></p></div>
+      <div class="connection-state"><span class="pulse-dot"></span><span id="connection-label">SIGNAL DETECTED</span></div>
+    </section>
+
+    <section class="main-panel" id="main-panel">
+      <div class="system-intro" id="system-intro">
+        <div class="boot-mark" aria-hidden="true"><span>AZ</span><i></i></div>
+        <p class="eyebrow">INCOMING CONNECTION · NODE 004</p>
+        <h1 id="node-title">LOADING ARCHIVE</h1>
+        <p class="lede" id="node-subtitle">Establishing secure connection...</p>
+        <div class="boot-meter"><span id="boot-meter-fill"></span></div>
+        <p class="micro-note" id="boot-status">WAITING FOR OPERATOR</p>
+        <button class="primary-button" id="initialize-button" type="button">INITIALIZE SYSTEM <span>→</span></button>
+        <p class="tiny-note">El audio comienza después de esta interacción, por compatibilidad con el navegador.</p>
+      </div>
+
+      <div class="challenge-area hidden" id="challenge-area">
+        <div class="challenge-topline"><span id="challenge-tag">AUTHENTICATION REQUIRED</span><span class="live-indicator"><i></i> LIVE</span></div>
+        <h2 id="challenge-title">ACCESS DENIED</h2>
+        <p class="challenge-copy" id="challenge-copy"></p>
+        <div id="challenge-content"></div>
+        <div class="hint-area">
+          <button class="text-button" type="button" id="hint-button">[ REQUEST HINT ]</button>
+          <p class="hint-text hidden" id="hint-text"></p>
+        </div>
+      </div>
+
+      <section class="evidence-area hidden" id="evidence-area" aria-live="polite">
+        <div class="evidence-header"><span class="evidence-stamp">EVIDENCE RECOVERED</span><span id="evidence-number">FILE 001 / 004</span></div>
+        <h2 id="evidence-title">MEMORY FOUND</h2>
+        <p class="evidence-copy" id="evidence-copy"></p>
+        <figure class="evidence-frame">
+          <img id="evidence-image" alt="Fotografía recuperada" src="assets/evidence-001.svg">
+          <figcaption><span id="evidence-caption">RECOVERED IMAGE</span><span>UNREDACTED</span></figcaption>
+        </figure>
+        <div class="transmission-box" id="transmission-box">
+          <div class="transmission-heading"><span class="transmission-icon">▣</span><span>SECONDARY TRANSMISSION DETECTED</span></div>
+          <p id="next-clue"></p>
+          <span class="transmission-footer">ENCRYPTED MESSAGE · DESTINATION NOT VERIFIED</span>
+        </div>
+        <div class="final-message hidden" id="final-message">
+          <span class="evidence-stamp">ALL RECORDS RECOVERED</span>
+          <h3>THE STORY WAS NEVER LOST.</h3>
+          <p>Algunos archivos guardan información. Otros guardan el comienzo de una historia.</p>
+          <p class="micro-note">ARCHIVE ZERO · END OF DIGITAL INVESTIGATION</p>
+        </div>
+        <div class="audio-note" id="audio-note"><span>♫</span> <span id="audio-note-text">MEMORY SOUNDTRACK LOADED</span></div>
+      </section>
+    </section>
+
+    <footer class="footer-line"><span>AZ // NODE 004</span><span>MEMORY RECOVERY PROTOCOL</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="audio.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
