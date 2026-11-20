@@ -22,7 +22,7 @@
       tag:'CIPHER AUTHENTICATION', challengeTitle:'RECOVER THE ORIGINAL MESSAGE',
       copy:'La secuencia fue alterada durante la transmisión. Cada letra avanzó exactamente una posición en el alfabeto. Corrige el desplazamiento y recupera la palabra original.',
       hint:'No necesitas cambiar el orden de las letras. Para deshacer el cifrado, retrocede cada carácter una posición: F vuelve a E, T vuelve a S...',
-      photo:'assets/foto-001.jpg', caption:'RECOVERED IMAGE // 001', theme:'medieval',
+      photo:'assets/foto-001.jpeg', caption:'RECOVERED IMAGE // 001', theme:'medieval',
       evidenceTitle:'MEMORY FOUND // 001', evidenceCopy:'EVIDENCE RECOVERED. El primer registro ha sido restaurado. Busca su equivalente en el archivo físico.',
       clue:'Hay una noche que nunca termina, aunque el día haya comenzado. Sus estrellas giran alrededor de un guardián silencioso, atrapado para siempre en un lienzo. Busca donde descansa ese guardián.'
     },
@@ -31,7 +31,7 @@
       tag:'MOTION AUTHORIZATION REQUIRED', challengeTitle:'WAKE THE DORMANT SIGNAL',
       copy:'Este archivo no responde a palabras ni contraseñas. La autorización debe provenir del propio dispositivo. Activa el sensor y completa tres movimientos firmes para estabilizar la señal.',
       hint:'No hace falta agitar el teléfono con fuerza. Sosténlo con seguridad y haz tres movimientos cortos y claros. Si tu navegador no admite el sensor, utiliza el modo de calibración manual.',
-      photo:'assets/foto-002.jpg', caption:'RECOVERED IMAGE // 002', theme:'playful',
+      photo:'assets/foto-002.jpeg', caption:'RECOVERED IMAGE // 002', theme:'playful',
       evidenceTitle:'COORDINATES RESTORED // 002', evidenceCopy:'La señal ha sido estabilizada. Un segundo recuerdo ha sido recuperado del archivo.',
       clue:'El siguiente mensaje fue enviado en papel. Sus palabras pueden leerse, pero el acceso permanece protegido por una antigua marca que certifica que nadie ha roto el cierre. No busques entre las palabras. Busca aquello que las mantiene selladas.'
     },
@@ -40,7 +40,7 @@
       tag:'SYSTEM RESTORATION REQUIRED', challengeTitle:'RECONNECT THE MEMORY CIRCUITS',
       copy:'Cuatro conexiones se perdieron durante el traslado del archivo. Selecciona un puerto del lado izquierdo y después su pareja del lado derecho. Conecta los cuatro circuitos para recuperar la transmisión.',
       hint:'Cada conexión tiene un color. Toca primero un puerto de salida y después el puerto del mismo color al otro lado. No importa el orden.',
-      photo:'assets/foto-003.jpg', caption:'RECOVERED IMAGE // 003', theme:'majestic',
+      photo:'assets/foto-003.jpeg', caption:'RECOVERED IMAGE // 003', theme:'majestic',
       evidenceTitle:'CORRESPONDENCE RESTORED // 003', evidenceCopy:'La transmisión ha sido reconstruida. Una ubicación que alguna vez fue un destino soñado vuelve a aparecer en los registros.',
       clue:'Antes de las promesas, antes de los planes y antes de que existiera una historia compartida, hubo un primer registro. Una imagen que capturó el instante en que dos personas comenzaron a convertirse en algo más. El último nodo está junto a ese primer testigo.'
     },
@@ -49,7 +49,7 @@
       tag:'MEMORY SEQUENCE REQUIRED', challengeTitle:'RESTORE THE ORIGINAL MEMORY',
       copy:'El último archivo está protegido por una secuencia de memoria. Observa el orden de los símbolos y repítelo. Después, responde la pregunta que abrió esta historia.',
       hint:'Primero memoriza la secuencia de cinco símbolos. No necesitas velocidad: puedes esperar a que termine y tocar los botones en el mismo orden.',
-      photo:'assets/foto-004.jpg', caption:'ORIGINAL MEMORY // 004', theme:'romantic',
+      photo:'assets/foto-004.jpeg', caption:'ORIGINAL MEMORY // 004', theme:'romantic',
       evidenceTitle:'ORIGINAL MEMORY RECOVERED', evidenceCopy:'La última imagen ha sido restaurada. El archivo que parecía perdido nunca dejó de formar parte de la historia.',
       clue:''
     }
